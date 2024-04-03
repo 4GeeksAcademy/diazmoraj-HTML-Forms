@@ -9,11 +9,73 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="content">
+    <div class="content m-1 p-4">
+        <div>
+            <h3>Payment for example</h3>
+        </div>
+        <div>
+            <div class="alert alert-danger" role="alert">
+                Some fields are missing
+              </div>
+            <div class="d-flex">
+                <fielset>
+                    <label for="">Card #</label><br>
+                    <input type="text" placeholder="xxxxxxxxxx">
+                </fielset>
+                <fielset>
+                    <label for="">CVC #</label><br>
+                    <input type="text" placeholder="0000">
+                </fielset>
+                <fielset>
+                    <label for="">Amount</label><br>
+                    <label for="">$</label>
+                    <input type="text" placeholder="Amount">
+                </fielset>
+            </div>
+        </div>
         <div>
             <div>
-                <h3>Payment for example</h3>
+                <fielset>
+                    <label for="">First name</label><br>
+                    <input type="text"><br>
+                </fielset>
+                <fielset>
+                    <label for="">City</label><br>
+                    <input type="text"><br>
+                </fielset>
+                <fielset>
+                    <label for="">We accept:</label><br>
+                    <input type="radio">
+                    <input type="radio">
+                    <input type="radio">
+                    <input type="radio">
+                </fielset>
             </div>
+            <div>
+                <fieldset>
+                    <label for="">Last Name</label><br>
+                    <input type="text">
+                </fieldset>
+                <div class="d-flex">
+                    <fielset>
+                        <label for="">State</label><br>
+                        <input type="text">
+                    </fielset>
+                    <fielset>
+                        <label for="">Postal Code</label><br>
+                        <input type="text">
+                    </fielset>
+                </div>
+                <fieldset>
+                    <label for="">Message</label><br>
+                    <textarea name="" id="" cols="30" rows="10"></textarea><br>
+                    <label for="">Add any notes here.</label>
+                </fieldset>
+            </div>
+        </div>
+        <div class="d-flex">
+            <button type="button" class="btn btn-secondary">Cancel</button>
+            <button type="button" class="btn btn-primary">Send</button>
         </div>
     </div>
     

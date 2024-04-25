@@ -4,4 +4,20 @@
     justify-content: center;
     margin-top: 0px auto;
     border-radius: 2%;
+    
+}
+
+.head{
+    background-color: lightgrey;
+    border: 1px 0 solid gray;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+}
+
+.order-line{
+    display: flex;
+    flex-direction: row;
 }

@@ -4,7 +4,6 @@
     justify-content: center;
     margin-top: 0px auto;
     border-radius: 2%;
-    
 }
 
 .head{
@@ -20,4 +19,12 @@
 .order-line{
     display: flex;
     flex-direction: row;
+}
+
+.margin input{
+    margin-right: 10px;
+}
+
+.margin select{
+    margin-right: 10px;
 }
